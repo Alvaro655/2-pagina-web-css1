@@ -1,6 +1,55 @@
 body{
-    background-image: url("IMG/imagen\ del\ 2\ html\ página\ 2.jpg");
+    background-image: url("IMG/imagen\ de\ la\ pagina\ principal.jpg");
 }
+  
+h1{
+ color: rgb(255, 255, 255);
+}
+
+.Paisaje {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:0 auto;
+    height:200px;
+    color: rgb(255, 255, 255);
+  }
+  
+  img {
+    text-align: left;
+    margin: 5%;
+    padding: 0%;
+    float: left;
+    width: 40%;
+}
+
+  @media (min-width: 576px) {
+    .Paisaje {
+      max-width: 540px;
+      color: rgb(255, 255, 255);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .Paisaje {
+      max-width: 720px;	
+      color: rgb(255, 255, 255);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .Paisaje {
+      max-width: 960px;	
+      color: rgb(255, 255, 255);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .Paisaje {
+      max-width: 1140px;
+      color: rgb(255, 255, 255);		
+    }
+  }
 
 
 
